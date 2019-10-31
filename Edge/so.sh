@@ -1,0 +1,13 @@
+gcc -shared ptz_control.o -o libptz.so
+gcc -shared client.o -o libclient.so
+gcc -shared server.o -o libserver.so
+gcc -shared wsaapi.o -o libwsaapi.so
+gcc -shared stdsoap2.o -o libstdsoap2.so
+gcc -shared soapC.o -o libsoapC.so
+gcc -shared duration.o -o libduration.so
+gcc -shared soapClient.o -o libsoapClient.so
+gcc -shared wsseapi.o -o libwsseapi.so
+gcc -shared mecevp.o -o libmecevp.so
+gcc -shared smdevp.o -o libsmdevp.so
+gcc -shared threads.o -o libthreads.so
+gcc -shared dom.o -o libdom.so
